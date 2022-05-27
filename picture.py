@@ -1,7 +1,10 @@
 from colors import *
+from chessPictures import *
+from interpreter import draw
+
 class Picture:
   def __init__(self, img):
-    self.img = img;
+    self.img = img
 
   def __eq__(self, other):
     return self.img == other.img
@@ -49,3 +52,5 @@ class Picture:
     """Devuelve una figura rotada en 90 grados, puede ser en sentido horario
     o antihorario"""
     return Picture(None)
+
+draw(BISHOP)
