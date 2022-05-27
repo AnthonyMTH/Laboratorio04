@@ -20,14 +20,14 @@ class Picture:
 
   def horizontalMirror(self):
     """ Devuelve el espejo horizontal de la imagen """
-    imagenVolteada = ""
-    for i in self:
-      linea = ""
+    imagenVolteada = []
+    for i in self: #Recorre la cantidad de elementos de la lista
+      elemento = ""
       for j in range(57, -1, -1): #58 es la cantidad de caracteres que tiene cada elemento de la lista, se pone 57 porque esta vendría a ser la última posición, y -1 para que recorra hasta el primer elemento. 
         #Este for recorrerá todos los caracteres de atrás hacia adelante.
-        linea += i[j] #Se va agregando de caracter en caracter
-
-    return Picture(None)
+        elemento += i[j] #Se va agregando de caracter en caracter
+      imagenVolteada[i] = elemento #Almacena el elemento
+    return Picture(imagenVolteada)
 
   def negative(self):
     """ Devuelve un negativo de la imagen """
