@@ -1,6 +1,4 @@
 from colors import *
-from chessPictures import *
-from interpreter import draw
 
 class Picture:
   def __init__(self, img):
@@ -20,14 +18,18 @@ class Picture:
 
   def horizontalMirror(self):
     """ Devuelve el espejo horizontal de la imagen """
-    imagenVolteada = []
-    for i in self: #Recorre la cantidad de elementos de la lista
+    imagenOriginal = self.img
+    imagenVolteada = [len(imagenOriginal)]
+    indice = 0
+    for i in imagenOriginal: #Recorre la cantidad de elementos de la lista
       elemento = ""
-      for j in range(57, -1, -1): #58 es la cantidad de caracteres que tiene cada elemento de la lista, se pone 57 porque esta vendría a ser la última posición, y -1 para que recorra hasta el primer elemento. 
+      for j in range(57, -1, -1): #58 es la cantidad de caracteres que tiene cada elemento de la lista, se pone 57 porque esta vendría a ser la última posición, -1 para que recorra hasta el primer elemento, y el otro -1 para que vaya disminuyendo. 
         #Este for recorrerá todos los caracteres de atrás hacia adelante.
         elemento += i[j] #Se va agregando de caracter en caracter
-      imagenVolteada[i] = elemento #Almacena el elemento
-    return Picture(imagenVolteada)
+      print (elemento)
+      imagenOriginal[indice] = elemento #Almacena el elemento
+      indice = indice +1
+    return Picture(imagenOriginal)
 
   def negative(self):
     """ Devuelve un negativo de la imagen """
@@ -60,4 +62,3 @@ class Picture:
     o antihorario"""
     return Picture(None)
 
-draw(BISHOP)
