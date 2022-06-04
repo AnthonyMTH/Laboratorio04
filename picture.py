@@ -1,7 +1,7 @@
 from colors import *
 class Picture:
   def __init__(self, img):
-    self.img = img;
+    self.img = img
 
   def __eq__(self, other):
     return self.img == other.img
@@ -29,7 +29,9 @@ class Picture:
     return Picture(None)
 
   def up(self, p):
-    return Picture(None)
+    newIMG = [] 
+    for line in p.img: 
+      newIMG.append(line) 
 
   def under(self, p):
     """ Devuelve una nueva figura poniendo la figura p sobre la
