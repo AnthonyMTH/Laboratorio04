@@ -24,9 +24,12 @@ class Picture:
     return Picture(None)
 
   def join(self, p):
-    """ Devuelve una nueva figura poniendo la figura del argumento 
-        al lado derecho de la figura actual """
-    return Picture(None)
+    arr1 = self.img
+    arr2 = p.img
+    arr3 = []
+    for a, b in zip(arr1, arr2):
+      arr3.append(a + b)
+    return Picture(arr3)
 
   def up(self, p):
     return Picture(None)
