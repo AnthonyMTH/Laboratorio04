@@ -24,10 +24,10 @@ class Picture:
     return Picture(None)
 
   def join(self, p):
-    arr1 = self.img
-    arr2 = p.img
+    arr1 = self.img #se obtiene la imagen del objeto que hace la llamada a join()
+    arr2 = p.img #se obtiene la imagen del objeto que fue dado como argumento
     arr3 = []
-    for a, b in zip(arr1, arr2):
+    for a, b in zip(arr1, arr2): #a y b son iteradores
       arr3.append(a + b)
     return Picture(arr3)
 
