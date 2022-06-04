@@ -32,7 +32,9 @@ class Picture:
     newIMG = [] 
     for line in p.img: 
       newIMG.append(line) 
-
+    for line in self.img:
+      newIMG.append(line)      
+    return Picture(newIMG)
   def under(self, p):
     """ Devuelve una nueva figura poniendo la figura p sobre la
         figura actual """
