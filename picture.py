@@ -18,18 +18,15 @@ class Picture:
 
   def horizontalMirror(self):
     """ Devuelve el espejo horizontal de la imagen """
-    imagenOriginal = self.img
-    imagenVolteada = [len(imagenOriginal)]
-    indice = 0
-    for i in imagenOriginal: #Recorre la cantidad de elementos de la lista
+    imagen = self.img
+    nuevaImagen = []
+    for i in imagen: #Recorre la cantidad de elementos de la lista
       elemento = ""
       for j in range(57, -1, -1): #58 es la cantidad de caracteres que tiene cada elemento de la lista, se pone 57 porque esta vendría a ser la última posición, -1 para que recorra hasta el primer elemento, y el otro -1 para que vaya disminuyendo. 
         #Este for recorrerá todos los caracteres de atrás hacia adelante.
         elemento += i[j] #Se va agregando de caracter en caracter
-      print (elemento)
-      imagenOriginal[indice] = elemento #Almacena el elemento
-      indice = indice +1
-    return Picture(imagenOriginal)
+      nuevaImagen.append(elemento) #Reemplaza el elemento, pero volteado 
+    return Picture(nuevaImagen)
 
   def negative(self):
     """ Devuelve un negativo de la imagen """
