@@ -51,7 +51,11 @@ class Picture:
     return Picture(result)
 
   def verticalRepeat(self, n):
-    return Picture(None)
+    result = []
+    for i in range(n):
+      for j in self.img:
+          result.append(j)
+    return Picture(result)
 
   #Extra: Sólo para realmente viciosos 
   def rotate(self):
