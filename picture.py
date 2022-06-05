@@ -25,7 +25,7 @@ class Picture:
       for j in range(57, -1, -1): #58 es la cantidad de caracteres que tiene cada elemento de la lista, se pone 57 porque esta vendría a ser la última posición, -1 para que recorra hasta el primer elemento, y el otro -1 para que vaya disminuyendo. 
         #Este for recorrerá todos los caracteres de atrás hacia adelante.
         elemento += i[j] #Se va agregando de caracter en caracter
-      nuevaImagen.append(elemento) #Reemplaza el elemento, pero volteado 
+      nuevaImagen.append(elemento) #Se agrega el elemento
     return Picture(nuevaImagen)
 
   def negative(self):
