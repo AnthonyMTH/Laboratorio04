@@ -26,7 +26,7 @@ class Picture:
       for y in x:
         line = line + self._invColor(y)
       result.append(line)
-    return Picture(None)
+    return Picture(result)
 
   def join(self, p):
     """ Devuelve una nueva figura poniendo la figura del argumento 
