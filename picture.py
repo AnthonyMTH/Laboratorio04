@@ -18,8 +18,7 @@ class Picture:
     while(index >= 0):
           selfReversed.append(self.img[index])
           index = index - 1
-
-    return Picture(None)
+    return Picture(selfReversed)
 
   def horizontalMirror(self):
     """ Devuelve el espejo horizontal de la imagen """
