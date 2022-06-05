@@ -20,7 +20,12 @@ class Picture:
     return Picture(None)
 
   def negative(self):
-    """ Devuelve un negativo de la imagen """
+    result = []
+    for x in self.img:
+      line = ''
+      for y in x:
+        line = line + self._invColor(y)
+      result.append(line)
     return Picture(None)
 
   def join(self, p):
