@@ -70,7 +70,9 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
 
     * Función horizontalMirror:
 
-    * Función negative
+    * Función negative:
+
+      En la función <code>negative</code> vamos a utilizar la función <code>\_invColor</code> la cual es una función de propósito interno y recibe un caracter y devuelve otro caracter que se entiende como su color inverso. Luego iteramos sobre toda la imagen invirtiendo su color.
 
     * Función join:
 
@@ -80,9 +82,15 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
 
     * Función horizontalRepeat:
 
+      Para esta función se recibe un entero <code>n</code> el cual nos va a indicar el número de veces que vamos a repetir horizontalmente la imagen. Con ayuda de un ciclo <code>for</code> vamos a crear la imagen y repetirla horizontalmente.
+
     * Función verticalRepeat:
 
+      En esta función recibimos un entero <code>n</code> y con la función <code>append</code> vamos a repetirlo verticalmente.
+
     * Función rotate:
+
+      La función <code>rotate</code> se va aplicar a un objeto <code>Picture</code> con el fin de rotarlo 90° sentido horario, para resolver está función se hizon un análisis previo para saber como es que las posiciones debían rotar.
 
 * Ejercicios Propuestos:
 
@@ -121,7 +129,7 @@ II. SOLUCIÓN DEL CUESTIONARIO
 
 III. CONCLUSIONES
 
-  
+
     
 ---
     
