@@ -76,6 +76,8 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
     * Función verticalMirror:
 
     * Función horizontalMirror:
+	
+	Función encargada de mostrar el espejo horizontal de una imagen. Esto se consigue gracias a un bucle <code>for</code> que recorrerá en todos los elementos de la lista que forma a la imagen, de atrás hacia adelante, almacenando cada caracter en una nueva lista.
 
     * Función negative:
 
@@ -83,7 +85,7 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
 
     * Función join:
 
-      Funcion que se encarga de colocar una figura a la derecha de otra, con la funcion <code>zip()</code> se consigue emparejar dos elementos de dos vectores, conveniente porque todas las figuras tienen las mismas dimensiones; despues, con dos iteradores se recorre la lista devuelta y se concatenan para formar un nuevo vector que junta las dos figuras como indica el ejercicio
+      Funcion que se encarga de colocar una figura a la derecha de otra, con la funcion <code>zip()</code> se consigue emparejar dos elementos de dos vectores, conveniente porque todas las figuras tienen las mismas dimensiones; despues, con dos iteradores se recorre la lista devuelta y se concatenan para formar un nuevo vector que junta las dos figuras como indica el ejercicio.
 
     * Función up:
 
@@ -99,7 +101,7 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
 
     * Función rotate:
 
-      La función <code>rotate</code> se va aplicar a un objeto <code>Picture</code> con el fin de rotarlo 90° sentido horario, para resolver está función se hizon un análisis previo para saber como es que las posiciones debían rotar.
+      La función <code>rotate</code> se va aplicar a un objeto <code>Picture</code> con el fin de rotarlo 90° sentido horario, para resolver está función se hizon un análisis previo para saber cómo es que las posiciones debían rotar.
 
 * Ejercicios Propuestos:
 
