@@ -74,6 +74,8 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
 * Funciones de la clase Picture:  
 
     * Función verticalMirror:
+	
+	Función encargada de mostrar el espejo vertical de la imagen. Implementando un bucle de tipo <code>while</code> que recorrerá desde atras hacia adelante los elementos de la lista que forma la imagen, almacenando cada caracter en una nueva lista.
 
     * Función horizontalMirror:
 	
