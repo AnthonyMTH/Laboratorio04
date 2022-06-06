@@ -62,7 +62,14 @@
 I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
 * Organización del repositorio:
     ```sh
-   <!-- tree -->
+	   └───Laboratorio04
+        ├───.gitignore
+	    ├───README.md
+        ├───chessPictures.py
+        ├───colors.py
+	    ├───interpreter.py
+	    ├───picture.py
+	    └───pieces.py
     ```
 * Funciones de la clase Picture:  
 
