@@ -43,9 +43,12 @@ class Picture:
     return Picture(result)
 
   def join(self, p):
-    """ Devuelve una nueva figura poniendo la figura del argumento 
-        al lado derecho de la figura actual """
-    return Picture(None)
+    arr1 = self.img #se obtiene la imagen del objeto que hace la llamada a join()
+    arr2 = p.img #se obtiene la imagen del objeto que fue dado como argumento
+    arr3 = []
+    for a, b in zip(arr1, arr2): #a y b son iteradores
+      arr3.append(a + b)
+    return Picture(arr3)
 
   def up(self, p):
     newIMG = [] 
@@ -79,8 +82,6 @@ class Picture:
 
     return Picture(newImg)
 
-
-  
   def horizontalRepeat(self, n):
     result = []
     for i in self.img:
