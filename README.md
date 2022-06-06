@@ -136,8 +136,10 @@ II. SOLUCIÓN DEL CUESTIONARIO
 
 III. CONCLUSIONES
 
+ - La legibilidad es la mayor característica de python, es un lenguaje fácil de comprender, por ende, fácil de programar.
  - A diferencia de Java, los Strings son más fáciles de manipular en Python, siendo de gran ayuda en la resolución del laboratorio. Podemos manipular los Strings como si fueran un arreglo de caracteres y no tenemos la necesidad de utilizar métodos como <code>substring</code> para acceder a porciones del String.
-    
+ - La flexibilidad del código evita problemas de sintaxis, hace de la creación de programas un proceso menos tardío, con simplicidad, pero con eficacia y rápido entendimiento por parte de los programadores.
+ 
 ---
     
 ## RETROALIMENTACIÓN GENERAL
