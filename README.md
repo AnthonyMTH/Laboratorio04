@@ -117,11 +117,13 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
 		<code>draw(((((knight.negative()).horizontalMirror()).join(knight.horizontalMirror()))).up(knight.join(knight.negative())))</code>
 	
 
-    * Ejercicio C:  
-      <code>draw(queen.horizontalRepeat(4))</code>
+    * Ejercicio C:
+	
+		<code>draw(queen.horizontalRepeat(4))</code>
 
     * Ejercicio D:
-      <code>draw(square.join(square.negative()).horizontalRepeat(4))</code>
+	
+      		<code>draw(square.join(square.negative()).horizontalRepeat(4))</code>
 
     * Ejercicio E:
 
