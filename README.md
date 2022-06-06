@@ -88,6 +88,7 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
       Funcion que se encarga de colocar una figura a la derecha de otra, con la funcion <code>zip()</code> se consigue emparejar dos elementos de dos vectores, conveniente porque todas las figuras tienen las mismas dimensiones; despues, con dos iteradores se recorre la lista devuelta y se concatenan para formar un nuevo vector que junta las dos figuras como indica el ejercicio.
 
     * Función up:
+	La funcion <code>up</code> recibe un <code>Picture</code> que lo va a posicioner encima de la figura actual por lo que se crea un arreglo el cual almcena el objeto recibido con un <code>for</code> y seguidamente se almacne el siguiente <code>Picture</code> con un  segundo <code>for</code>.
 
     * Función under:
 
