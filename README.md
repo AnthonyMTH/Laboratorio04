@@ -75,7 +75,7 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
 
     * Función verticalMirror:
 
-	Función encargada de mostrar el espejo vertical de la imagen. Implementando un bucle de tipo <code>while</code> que recorrerá desde atras hacia adelante los elementos de la lista que forma la imagen, almacenando cada caracter en una nueva lista.
+		Función encargada de mostrar el espejo vertical de la imagen. Implementando un bucle de tipo <code>while</code> que recorrerá desde atras hacia adelante los elementos de la lista que forma la imagen, almacenando cada caracter en una nueva lista.
 
     * Función horizontalMirror:
 	
@@ -109,6 +109,7 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
 * Ejercicios Propuestos:
 
     * Ejercicio A:
+	
 	<code>draw(((knight.negative()).join(knight)).up(knight.join(knight.negative())))</code>
 
     * Ejercicio B:
