@@ -136,7 +136,7 @@ II. SOLUCIÓN DEL CUESTIONARIO
 
 III. CONCLUSIONES
 
-
+ - A diferencia de Java, los Strings son más fáciles de manipular en Python, siendo de gran ayuda en la resolución del laboratorio. Podemos manipular los Strings como si fueran un arreglo de caracteres y no tenemos la necesidad de utilizar métodos como <code>substring</code> para acceder a porciones del String.
     
 ---
     
