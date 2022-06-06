@@ -82,7 +82,8 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
       En la función <code>negative</code> vamos a utilizar la función <code>\_invColor</code> la cual es una función de propósito interno y recibe un caracter y devuelve otro caracter que se entiende como su color inverso. Luego iteramos sobre toda la imagen invirtiendo su color.
 
     * Función join:
-	Funcion que se encarga de colocar una figura a la derecha de otra, con la funcion <code>zip()</code> se consigue emparejar dos elementos de dos vectores, conveniente porque todas las figuras tienen las mismas dimensiones; despues, con dos iteradores se recorre la lista devuelta y se concatenan para formar un nuevo vector que junta las dos figuras como indica el ejercicio
+
+      Funcion que se encarga de colocar una figura a la derecha de otra, con la funcion <code>zip()</code> se consigue emparejar dos elementos de dos vectores, conveniente porque todas las figuras tienen las mismas dimensiones; despues, con dos iteradores se recorre la lista devuelta y se concatenan para formar un nuevo vector que junta las dos figuras como indica el ejercicio
 
     * Función up:
 
