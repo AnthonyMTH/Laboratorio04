@@ -77,7 +77,7 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
 
     * Función horizontalMirror:
 	
-	Función encargada de mostrar el espejo horizontal de una imagen. Esto se consigue gracias a un bucle <code>for</code> que recorrerá en todos los elementos de la lista que forma a la imagen, de atrás hacia adelante, almacenando cada caracter en una nueva lista.
+      Función encargada de mostrar el espejo horizontal de una imagen. Esto se consigue gracias a un bucle <code>for</code> que recorrerá en todos los elementos de la lista que forma a la imagen, de atrás hacia adelante, almacenando cada caracter en una nueva lista.
 
     * Función negative:
 
