@@ -82,6 +82,7 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
       En la función <code>negative</code> vamos a utilizar la función <code>\_invColor</code> la cual es una función de propósito interno y recibe un caracter y devuelve otro caracter que se entiende como su color inverso. Luego iteramos sobre toda la imagen invirtiendo su color.
 
     * Función join:
+	Funcion que se encarga de colocar una figura a la derecha de otra, con la funcion <code>zip()</code> se consigue emparejar dos elementos de dos vectores, conveniente porque todas las figuras tienen las mismas dimensiones; despues, con dos iteradores se recorre la lista devuelta y se concatenan para formar un nuevo vector que junta las dos figuras como indica el ejercicio
 
     * Función up:
 
@@ -136,10 +137,8 @@ II. SOLUCIÓN DEL CUESTIONARIO
 
 III. CONCLUSIONES
 
- - La legibilidad es la mayor característica de python, es un lenguaje fácil de comprender, por ende, fácil de programar.
  - A diferencia de Java, los Strings son más fáciles de manipular en Python, siendo de gran ayuda en la resolución del laboratorio. Podemos manipular los Strings como si fueran un arreglo de caracteres y no tenemos la necesidad de utilizar métodos como <code>substring</code> para acceder a porciones del String.
- - La flexibilidad del código evita problemas de sintaxis, hace de la creación de programas un proceso menos tardío, con simplicidad, pero con eficacia y rápido entendimiento por parte de los programadores.
- 
+    
 ---
     
 ## RETROALIMENTACIÓN GENERAL
