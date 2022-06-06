@@ -110,11 +110,11 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
 
     * Ejercicio A:
 	
-	<code>draw(((knight.negative()).join(knight)).up(knight.join(knight.negative())))</code>
+		<code>draw(((knight.negative()).join(knight)).up(knight.join(knight.negative())))</code>
 
     * Ejercicio B:
 	
-	<code>draw(((((knight.negative()).horizontalMirror()).join(knight.horizontalMirror()))).up(knight.join(knight.negative())))</code>
+		<code>draw(((((knight.negative()).horizontalMirror()).join(knight.horizontalMirror()))).up(knight.join(knight.negative())))</code>
 	
 
     * Ejercicio C:  
