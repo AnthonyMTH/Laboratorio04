@@ -67,6 +67,7 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
 	    ├───README.md
         ├───chessPictures.py
         ├───colors.py
+	    ├───ejercicio2g.py
 	    ├───interpreter.py
 	    ├───picture.py
 	    └───pieces.py
@@ -107,6 +108,16 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
       La función <code>rotate</code> se va aplicar a un objeto <code>Picture</code> con el fin de rotarlo 90° sentido horario, para resolver está función se hizon un análisis previo para saber cómo es que las posiciones debían rotar.
 
 * Ejercicios Propuestos:
+	
+	Para visualizar los ejercicios, se debe ejecutar los siguientes comandos y luego copiar el comando del ejercicio que se desea visualizar..
+	
+     ```sh
+	❯ python
+	Python 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)] on win32
+	Type "help", "copyright", "credits" or "license" for more information.
+	>>> from chessPictures import *
+	>>> from interpreter import draw
+    ```
 
     * Ejercicio A:
 	
@@ -126,11 +137,16 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
 		<code>draw(square.join(square.negative()).horizontalRepeat(4))</code>
 
     * Ejercicio E:
+	
+		<code>draw((square.negative().join(square)).horizontalRepeat(4))</code>
 
     * Ejercicio F:
+	
+		<code>draw((((square.negative().up(square)).join(square.up(square.negative()))).horizontalRepeat(4)).verticalRepeat(2))</code>
 
     * Ejercicio G:
-     
+	
+	Para visualizar este ejercicio se debe ejecutar el archivo <code>ejercicio2g.py</code>.
 ---
 
 II. SOLUCIÓN DEL CUESTIONARIO
@@ -152,9 +168,7 @@ II. SOLUCIÓN DEL CUESTIONARIO
 
 III. CONCLUSIONES
 
- - La legibilidad es la mayor característica de python, es un lenguaje fácil de comprender, por ende, fácil de programar.
  - A diferencia de Java, los Strings son más fáciles de manipular en Python, siendo de gran ayuda en la resolución del laboratorio. Podemos manipular los Strings como si fueran un arreglo de caracteres y no tenemos la necesidad de utilizar métodos como <code>substring</code> para acceder a porciones del String.
- - La flexibilidad del código evita problemas de sintaxis, hace de la creación de programas un proceso menos tardío, con simplicidad, pero con eficacia y rápido entendimiento por parte de los programadores.
     
 ---
     
