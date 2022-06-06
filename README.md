@@ -110,7 +110,8 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
 
     * Ejercicio B:
 
-    * Ejercicio C:  <code>draw(queen.horizontalRepeat(4))</code>
+    * Ejercicio C:  
+	<code>draw(queen.horizontalRepeat(4))</code>
 
     * Ejercicio D:
 
