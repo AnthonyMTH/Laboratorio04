@@ -63,6 +63,14 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
 * Organización del repositorio:
     ```sh
 	   └───Laboratorio04
+	    ├───labImg
+	    │    ├───ejercicioA.jpeg
+	    │    ├───ejercicioB.jpeg
+	    │    ├───ejercicioC.jpeg
+	    │    ├───ejercicioD.jpeg
+	    │    ├───ejercicioE.jpeg
+	    │    ├───ejercicioF.jpeg
+	    │    └───ejercicioG.jpeg
         ├───.gitignore
 	    ├───README.md
         ├───chessPictures.py
@@ -70,7 +78,8 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
 	    ├───ejercicio2g.py
 	    ├───interpreter.py
 	    ├───picture.py
-	    └───pieces.py
+	    ├───pieces.py
+	    └───pyvenv.cfg
     ```
 * Funciones de la clase Picture:  
 
@@ -122,31 +131,44 @@ I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS <br>
     * Ejercicio A:
 	
 		<code>draw(((knight.negative()).join(knight)).up(knight.join(knight.negative())))</code>
+	
+	<img src="labImg/ejercicioA.jpeg" style="width:50%; height:auto"/>
 
     * Ejercicio B:
 	
 		<code>draw(((((knight.negative()).horizontalMirror()).join(knight.horizontalMirror()))).up(knight.join(knight.negative())))</code>
 	
+	<img src="labImg/ejercicioB.jpeg" style="width:50%; height:auto"/>
 
     * Ejercicio C:
 	
 		<code>draw(queen.horizontalRepeat(4))</code>
+	
+	<img src="labImg/ejercicioC.jpeg" style="width:50%; height:auto"/>
 
     * Ejercicio D:
 	
 		<code>draw(square.join(square.negative()).horizontalRepeat(4))</code>
+	
+	<img src="labImg/ejercicioD.jpeg" style="width:50%; height:auto"/>
 
     * Ejercicio E:
 	
 		<code>draw((square.negative().join(square)).horizontalRepeat(4))</code>
+	
+	<img src="labImg/ejercicioE.jpeg" style="width:50%; height:auto"/>
 
     * Ejercicio F:
 	
 		<code>draw((((square.negative().up(square)).join(square.up(square.negative()))).horizontalRepeat(4)).verticalRepeat(2))</code>
+	
+	<img src="labImg/ejercicioF.jpeg" style="width:50%; height:auto"/>
 
     * Ejercicio G:
 	
 	Para visualizar este ejercicio se debe ejecutar el archivo <code>ejercicio2g.py</code>.
+	
+	<img src="labImg/ejercicioG.jpeg" style="width:50%; height:auto"/>
 ---
 
 II. SOLUCIÓN DEL CUESTIONARIO
