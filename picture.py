@@ -20,8 +20,13 @@ class Picture:
     return Picture(None)
 
   def negative(self):
-    """ Devuelve un negativo de la imagen """
-    return Picture(None)
+    result = []
+    for x in self.img:
+      line = ''
+      for y in x:
+        line = line + self._invColor(y)
+      result.append(line)
+    return Picture(result)
 
   def join(self, p):
     """ Devuelve una nueva figura poniendo la figura del argumento 
@@ -37,15 +42,30 @@ class Picture:
     return Picture(None)
   
   def horizontalRepeat(self, n):
-    """ Devuelve una nueva figura repitiendo la figura actual al costado
-        la cantidad de veces que indique el valor de n """
-    return Picture(None)
+    result = []
+    for i in self.img:
+      line = ''
+      for j in range(n):
+        line = line + i
+      result.append(line)
+    return Picture(result)
 
   def verticalRepeat(self, n):
-    return Picture(None)
+    result = []
+    for i in range(n):
+      for j in self.img:
+        result.append(j)
+    return Picture(result)
 
   #Extra: Sólo para realmente viciosos 
   def rotate(self):
-    """Devuelve una figura rotada en 90 grados, puede ser en sentido horario
-    o antihorario"""
-    return Picture(None)
+    result = []
+    for i in range(len(self.img)):
+      line = ''
+      for j in range(len(self.img[i])):
+        try:
+          line = line + self.img[len(self.img) - j][i]
+        except:
+          line = line + ''
+      result.append(line)
+    return Picture(result)
